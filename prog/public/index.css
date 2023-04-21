@@ -1,0 +1,55 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.name--surname {
+    color: rgb(102, 104, 244);
+    margin-left: 30%;
+    margin-bottom: 0;
+}
+.info--card{
+    margin-top: 0;
+    padding: 0;
+}
+.info--head{
+    margin-left: 50%; 
+    margin-top: 0px;
+    color: rgb(102, 244, 173);
+}
+.info--text{
+    display: flex;
+    margin-left: 30px;
+}
+.cards--portfolio--cont{
+    width: 90%;
+    height: 1000px;
+    /* background-color: aquamarine; */
+    margin: 5%;
+   
+}
+.card--row--1{
+    margin-left: 150px;
+display: flex;
+}
+.card--row--2{
+display: flex;
+margin-left: 150px;
+margin-top: 300px;
+}
+.card--1{
+    width: 40%;
+    height: 200px ;
+   
+}
